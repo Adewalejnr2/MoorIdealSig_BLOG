@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Moor Ideal Signature</title>
+  </head>
+  <body class="font-sans ">
+    
+    <nav class="bg-stone-700 flex justify-between items-center p-4 sticky top-0 z-50 w-full shadow-black-500/50">
+  
+      <!-- Navigation Links (Left Section) -->
+      <div class="navBar lg:basis-1/3 flex items-center">
+        <!-- Sidebar Toggle Button (Mobile Only) -->
+        <div class="text-3xl text-white lg:hidden">
+          <button id="open-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+    
+        <!-- Desktop Navigation Links -->
+        <ul class="hidden lg:flex justify-between gap-6 text-white text-sm  font-semibold">
+            <li><a href="./home.html" class="text-sm">STYLE</a></li>
+            <li><a href="./about.html" class="text-sm">TRAVEL</a></li>
+            <li><a href="./Products.html" class="text-sm">LIFESTYLE</a></li>
+            <li><a href="./contact.html" class="text-sm">CONTACT</a></li>
+            <li><a href="./thankyou.html">THANK YOU!</a></li>
+        </ul>
+      </div>
+    
+      <!-- Logo (Center Section) -->
+      <div class="logo lg:basis-1/3 flex justify-center">
+        <div class="text-center text-white">
+          <h1 class="text-xl font-bold lg:text-2xl">MIS <i class="fa-solid fa-scissors"></i></h1>
+          <p class="text-sm font-semibold lg:text-lg">Moor Ideal Signature</p>
+        </div>
+      </div>
+    
+      <!-- Icons (Right Section) -->
+      <div class="flex gap-4 lg:gap-8 items-center text-white lg:basis-1/3 lg:justify-end cursor-pointer">
+        <i class="fa-solid fa-magnifying-glass text-xs"></i>
+        <i class="fa-solid fa-dollar-sign text-xs"></i>
+        <p class="font-bold hidden sm:block text-xs">Login</p>
+        <i class="fa-solid fa-bag-shopping text-xs"></i>
+      </div>
+    
+    </nav>
+    
+    
+
+    <!-- Sidebar (Mobile) -->
+    <div id="sideBar" class="fixed top-0 left-0 w-full h-screen bg-white shadow-lg p-8 transform -translate-x-full transition-transform duration-500 ease-in-out z-50">
+      <div class="flex justify-between items-center">
+        <h2 class="text-lg font-semibold">Menu</h2>
+        <button id="close-btn" class="text-3xl">
+          <i class="fa-solid fa-x text-2xl"></i>
+        </button>
+      </div>
+      <ul class="text-center grid gap-12 pt-8 font-semibold">
+        <li><a href="./home.html" class="text-sm">STYLE</a></li>
+        <li><a href="./about.html" class="text-sm">TRAVEL</a></li>
+        <li><a href="./Products.html" class="text-sm">LIFESTYLE</a></li>
+        <li><a href="./contact.html" class="text-sm">CONTACT</a></li>
+        <li><a href="./thankyou.html">THANK YOU!</a></li>
+      </ul>
+    </div>
+
+   
+    <!-- header content -->
+    <section class="">
+        <div class=" place-items-center py-8">
+            <div class="flex items-center text-center gap-4">
+                <div class="flex gap-2 font-semibold items-center justify-center ">
+                    <p>FASHION</p>
+                    <strong class="text-rose-600 text-3xl pb-4">.</strong>
+                    <P>LIFE</P>
+                    <strong class="text-rose-600 text-3xl pb-4">.</strong>
+                    <p>STYLE</p>
+                </div>
+               
+              </div>
+              
+        </div>
+          
+    </section>  
+
+
+    <section>
+      <div class="relative w-full h-screen">
+        <!-- Background Video -->
+        <video class="absolute top-0 left-0 w-full h-full object-cover object-cover" autoplay muted loop>
+          <source src="./images/7871220-uhd_4096_2160_25fps.mp4" type="video/mp4">
+        </video>
+
+        <!-- Overlay Content -->
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-4 px-4 z-10">
+          <h1 class="lg:text-3xl text-lg font-semibold px-8 py-4">Moor Ideal Signature is an inspired style, home, and beauty destination for those who prefer quality over quantity, subtle over obvious, and ease over complexity.</h1>
+          <p class="animate-zoom text-sm font-semibold text-center p-4"> If you're a Women aged 20-40 who is fashion-conscious, value quality, and seek timeless, elegant clothing for both casual and formal occasions you're on a right blog.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  <!-- animation div --> 
+   <div>
+   
+  </div>
+  <main class="flex justify-center items-center py-8">
+
+    <div class="flex flex-col items-center text-center">
+
+      <p class="text-xs">FEBRUARY 24, 2025</p>
+      <h3 class="font-semibold">New In</h3>
+      <div class="w-16 h-1.5 bg-stone-700 mx-auto my-2 rounded-full"></div>
+
+      <div class="container mx-auto px-4 py-8 md:flex md:gap-4">
+
+        <img src="./images/pexels-marcus-aurelius-9789230.jpg" alt="Fashion Image" class="mx-auto md:basis-1/2 max-w-full max-h-64 h-auto object-contain">
+        
+        <div class="md:basis-1/2">
+          <p class="text-xs font-semibold p-4">
+            My Tibi seasonal wish lists tend to be quite long. Longer still, if I've had time to tune into any Style Classes. Usually, I'll hold out for end of season; taking a risk on whether the item will still be in stock, and on the fit and feel of the item given its final sale. But every now and then, I'll spring for something full price. Usually preceded by a waiting period of 30 days (or as close to it as I can manage), and asking myself the question: would I be truly disappointed if it got to sale....
+          </p>
+          <button class="p-2 bg-amber-950 border rounded-full w-28 text-white font-semibold mx-4 mb-12 text-xs">Read More</button>
+        </div>
+        
+      </div>
+      
+      
+      <div class="container mx-auto px-4 py-8 md:flex md:gap-4">
+
+        <img src="./images/pexels-alameenng-30725890.jpg" alt="Fashion Image" class=" mx-auto md:basis-1/2 max-w-full max-h-64 h-auto object-contain">
+        
+        <div class="md:basis-1/2">
+          <p class="text-xs font-semibold p-4">
+            Probably one of the most major workhorses in my cold weather wardrobe is a trench coat. For me, it toes that line nicely of feeling polished enough to lift a denim look, but still relaxed enough in the styling for a more casual lifestyle.....
+          </p>
+          <button class="p-2 bg-amber-950 border rounded-full w-28 text-white font-semibold mx-4 mb-12 text-xs">Read More</button>
+        </div>
+        
+      </div>
+      <div class="container mx-auto px-4 py-8 md:flex md:gap-4">
+
+        <img src="./images/pexels-joelsantosfotografias-30561353.jpg" alt="Fashion Image" class=" mx-auto md:basis-1/2 max-w-full max-h-64 h-auto object-contain">
+        
+        <div class="md:basis-1/2">
+          <p class="text-xs font-semibold p-4">
+            One of the most important elements of our wedding attire is the bridal gown. It effortlessly blends sophistication with ease—elegant enough to create a breathtaking moment yet light and comfortable enough for a day filled with celebration. Whether standing at the altar or twirling on the dance floor, it captures a timeless beauty that feels both graceful and effortless....
+          </p>
+          <button class="p-2 bg-amber-950 border rounded-full w-28 text-white font-semibold mx-4 mb-12 text-xs">Read More</button>
+        </div>
+        
+      </div>
+
+
+    </div>
+
+  </main>
+
+  <section>
+    <div class="relative w-full h-screen">
+      <!-- Background Video -->
+      <video class="absolute top-0 left-0 w-full h-full object-cover" autoplay muted loop>
+        <source src="./images/9834571-uhd_4096_2160_25fps.mp4" type="video/mp4">
+      </video>
+
+      <!-- Overlay Content -->
+      <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-4 px-4 z-10">
+        <h2 class="lg:text-5xl text-lg font-semibold p-4"> How to Style Casual Chic Pieces for Every Occasion</h2>
+        <p class="mt-4 text-lg text-white"> Casual chic Collection fashion, styling tips, elegant outfits, capsule wardrobe, sustainable fashion.In this article, we explore how to create versatile outfits using timeless pieces from our Spring Collection. Learn how to transition from day to night effortlessly and build a capsule wardrobe that lasts.
+  </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto px-4 py-8 md:flex md:gap-4">
+
+    <div class="shadow-lg p-4 rounded-md">
+      <h3 class="font-semibold text-center">Competitors</h3>
+      <div class="w-16 h-1.5 bg-stone-700 mx-auto my-2 rounded-full"></div>
+      <ul class="list-disc pl-6 mb-4">
+       <li><strong>Zara</strong> Known for trendy, affordable fashion.</li>
+       <li><strong>Reformation</strong> - Focuses on sustainable and chic clothing.</li>
+      </ul>
+      <p class="mb-4">These competitors were identified through market research as they target similar audiences and emphasize style and sustainability.</p>
+    </div>
+
+
+
+    <div class="shadow-lg p-4 rounded-md">
+      <h3 class="font-semibold text-center">Campaign Goal</h3>
+      <div class="w-16 h-1.5 bg-stone-700 mx-auto my-2 rounded-full"></div>
+      <p class="mb-4"> Our Campaign Goal is to Increase brand awareness and drive sales for the new Spring Collection, focusing on timeless elegance and sustainability of our craft.</p>
+    </div>
+    <div class="shadow-lg p-4 rounded-md">
+      <h3 class="font-semibold text-center">The Importance Of Sustainable FAshion in 2025</h3>
+      <div class="w-16 h-1.5 bg-stone-700 mx-auto my-2 rounded-full"></div>
+      <p class="mb-4">sustainable fashion, eco-friendly clothing, ethical fashion, slow fashion, sustainable brands
+
+        This article dives into the growing importance of sustainable fashion and how Elegance by Eva is committed to ethical practices. Discover how small changes in your wardrobe can make a big impact on the planet.</p>
+    </div>
+  </section>
+
+
+  <!-- eBook Container -->
+<div class="max-w-3xl mx-auto p-4 bg-white shadow-md rounded-md">
+  <!-- eBook Header -->
+  <div class="flex items-center justify-between mb-4">
+    <h2 class="text-xl font-bold">Elevate Your Style: A Comprehensive Guide to Building a Timeless Wardrobe</h2>
+    <button class="bg-amber-700 hover:bg-amber-950 text-white font-bold py-2 px-4 rounded">Download Now</button>
+  </div>
+  
+  <!-- eBook Content -->
+  <div class="ebook-content">
+    <p class="text-lg leading-relaxed mb-4">Learn how to create a stylish, versatile wardrobe that stands the test of time. Get expert tips and tricks on investing in quality pieces, mixing and matching outfits, and more.</p>
+    
+    <h3 class="text-lg font-bold mb-2">What to Expect</h3>
+    <ul class="list-disc list-inside mb-4">
+      <li>Learn how to identify and invest in quality, timeless pieces</li>
+      <li>Discover the secrets to mixing and matching outfits for effortless style</li>
+      <li>Get insider advice on accessorizing, color palettes, and more</li>
+    </ul>
+    
+    <button class="bg-amber-700 hover:bg-amber-950 text-white font-bold py-2 px-4 rounded">Download Now</button>
+  </div>
+</div>
+
+
+
+
+    <footer
+      class="bg-stone-700 py-16 px-12 lg:flex lg:justify-between lg:items-top lg:px-32"
+    >
+      <div class="flex items-center gap-4 lg:self-start text-white">
+        <h1 class="text-xl font-bold lg:text-2xl">MIS <i class="fa-solid fa-scissors"></i></h1>
+        
+      </div>
+
+      <div class="text-white pt-8 text-sm">
+        <p class="font-bold ">Useful Links</p>
+        <ul class="text-lg pb-4">
+          <li class="py-4">About</li>
+          <li>Service</li>
+          <li class="py-4">Why Us</li>
+          <li>Gallery</li>
+          <li class="py-4">Contact</li>
+        </ul>
+      </div>
+
+      <div class="text-sm">
+        <p class="text-white text-lg mt-8 font-bold">Contact</p>
+        <div class="flex gap-8 text-white my-4 items-center">
+          <i class="fa-solid fa-location-crosshairs text-white text-xl"></i>
+          <p class="text-lg">Berndorf, Germany</p>
+        </div>
+        <div class="text-white flex gap-8 items-center">
+          <i class="fa-solid fa-phone-volume text-xl"> </i>
+          <p class="text-lg">+01 9272839</p>
+        </div>
+        <div class="text-white flex items-center gap-8 text-lg py-4">
+          <i class="fa-solid fa-clock text-xl text-white"></i>
+          <p>Mon-Sun:10:00 AM - 7:00 PM</p>
+        </div>
+      </div>
+
+      <div class="text-white mt-8">
+        <p class="text-xl font-bold">Follow</p>
+        <div class="flex items-center gap-8 text-xl mt-4">
+          <i class="fa-brands fa-twitter"></i>
+          <a href="https://www.facebook.com/share/1B36EK5721/?mibextid=LQQJ4d" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/moor_ideal_signature?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+          </i>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
